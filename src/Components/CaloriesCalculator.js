@@ -9,7 +9,7 @@ const formInitial = {
 }
 
 const formValidation = (form) => {
-  var onlyPositive = /^\d*$/;
+  var onlyPositive = /^\d*\.?\d+$/;
   let errors = {};
 
   if(form.Metric == ""){
